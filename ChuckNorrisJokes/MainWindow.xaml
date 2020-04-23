@@ -1,0 +1,13 @@
+﻿<Window x:Class="ChuckNorrisJokes.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChuckNorrisJokes"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Click="SayChuckNorrisJoke" Background="Gray" Margin="200,50,200,250" FontSize="30">Press For Chuck Norris Joke</Button>
+        <TextBlock Name="Input" HorizontalAlignment="Center" TextWrapping="Wrap" Margin="0,256,0,0" Width="754" FontSize="30"></TextBlock>
+    </Grid>
+</Window>
